@@ -4,8 +4,8 @@
   <tab-bar>
     <!--  home-->
     <tab-bar-item path='/home'
-                  activeItemColor='orange'
-                  defaultItemColor='blue'>
+                  activeItemColor='deeppink'
+                  defaultItemColor='black'>
       <img slot="item-icon"
            src="~assets/img/tabbar/home.svg"
            alt=""
@@ -18,8 +18,8 @@
     </tab-bar-item>
     <!-- category -->
     <tab-bar-item path='/category'
-                  activeItemColor='orange'
-                  defaultItemColor='blue'>
+                  activeItemColor='deeppink'
+                  defaultItemColor='black'>
       <img slot="item-icon"
            src="~assets/img/tabbar/category.svg"
            alt=""
@@ -31,9 +31,9 @@
       <div slot="item-name">分类</div>
     </tab-bar-item>
     <!-- cart -->
-    <tab-bar-item path='/cart'
-                  activeItemColor='orange'
-                  defaultItemColor='blue'>
+    <tab-bar-item path='/shopcart'
+                  activeItemColor='deeppink'
+                  defaultItemColor='black'>
       <img slot="item-icon"
            src="~assets/img/tabbar/shopcart.svg"
            alt=""
@@ -46,8 +46,8 @@
     </tab-bar-item>
     <!-- profile -->
     <tab-bar-item path='/profile'
-                  activeItemColor='orange'
-                  defaultItemColor='blue'>
+                  activeItemColor='deeppink'
+                  defaultItemColor='black'>
       <img slot="item-icon"
            src="~assets/img/tabbar/profile.svg"
            alt=""

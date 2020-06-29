@@ -26,7 +26,7 @@ body {
   -webkit-tap-highlight-color: transparent;
   /*点击高亮颜色 */
   background: var(--color-background);
-  color: var(--color-background);
+  color: var(--color-text);
   width: 100vw;
 }
 
