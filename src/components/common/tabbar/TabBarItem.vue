@@ -1,7 +1,5 @@
-
 <template>
-  <div class="tab-bar-item"
-       @click="itemClick">
+  <div class="tab-bar-item" @click="itemClick">
     <!-- default icon -->
     <div v-if="!isActive">
       <slot name="item-icon"></slot>
@@ -20,7 +18,7 @@
 <script>
 export default {
   name: 'TabBarItem',
-  data () {
+  data() {
     return {
       // isActive: true
     }
@@ -40,15 +38,17 @@ export default {
     }
   },
   computed: {
-    isActive () {
+    isActive() {
       return this.$route.path.indexOf(this.path) !== -1
     },
-    itemColor () {
-      return this.isActive ? { color: this.activeItemColor } : { color: this.defaultItemColor }
+    itemColor() {
+      return this.isActive
+        ? { color: this.activeItemColor }
+        : { color: this.defaultItemColor }
     }
   },
   methods: {
-    itemClick () {
+    itemClick() {
       this.$router.replace(this.path)
     }
   }

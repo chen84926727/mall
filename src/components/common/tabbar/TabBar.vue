@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  name: 'TabBar'
-}
+  name: "TabBar"
+};
 </script>
 
 <style>
